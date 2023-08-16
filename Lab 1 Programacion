@@ -21,3 +21,28 @@ public class PooClaculadora {
         System.out.println("10.porcentaje");
         System.out.println("11.salir");
         Scanner leer = new Scanner (System.in);
+opcion = leer.nextInt();
+
+        if(opcion==1){
+            System.out.println("ingrese el dato 1");
+            
+        
+            float a= leer.nextFloat();
+            System.out.println("ingrese el dato 2");
+            float b= leer.nextFloat();
+            
+            objeto1.sum(a,b);
+            System.out.println(objeto1.sum(a,b));
+        }
+        
+        else if(opcion==2){
+        System.out.println("ingrese el dato 1");
+        
+            float a= leer.nextFloat();
+            
+            System.out.println("ingrese el dato 2");
+            float b= leer.nextFloat();
+            
+            objeto1.res(a,b);
+            System.out.println(objeto1.res(a,b));
+        }
