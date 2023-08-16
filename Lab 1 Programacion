@@ -90,3 +90,44 @@ else if(opcion==3){
             objeto1.t(a);
             System.out.println(objeto1.t(a));
         }
+      else if(opcion==8){
+            System.out.println("ingrese el dato Base");
+            //String c= leer.nextLine();
+            float a= leer.nextFloat();
+            
+            System.out.println("ingrese radical");
+            float b= leer.nextFloat();
+            
+            objeto1.r(a,b);
+            System.out.println(objeto1.r(a,b));
+        }
+       else if(opcion==9){
+            System.out.println("ingrese el dato Base");
+            //String c= leer.nextLine();
+            float a= leer.nextFloat();
+            
+            System.out.println("ingrese exponente");
+            float b= leer.nextFloat();
+            
+            objeto1.p(a,b);
+            System.out.println(objeto1.p(a,b));
+        }
+   else if(opcion==10){
+            System.out.println("ingrese el dato ");
+            //String c= leer.nextLine();
+            float a= leer.nextFloat();
+            
+            System.out.println("ingrese %");
+            float b= leer.nextFloat();
+            
+            objeto1.i(a,b);
+            System.out.println(objeto1.i(a,b));
+        }
+         else if(opcion==11){
+            opc=false;
+            
+         }
+        }
+}
+
+}
