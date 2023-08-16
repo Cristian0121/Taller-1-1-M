@@ -46,3 +46,47 @@ opcion = leer.nextInt();
             objeto1.res(a,b);
             System.out.println(objeto1.res(a,b));
         }
+else if(opcion==3){
+            System.out.println("ingrese el dato 1");
+            //String c= leer.nextLine();
+            float a= leer.nextFloat();
+            
+            System.out.println("ingrese el dato 2");
+            float b= leer.nextFloat();
+            
+            objeto1.mul(a,b);
+            System.out.println(objeto1.mul(a,b));
+        }
+        
+        
+        else if(opcion==4){
+            System.out.println("ingrese el dato 1");
+            //String c= leer.nextLine();
+            float a= leer.nextFloat();;
+            
+            System.out.println("ingrese el dato 2");
+            float b= leer.nextFloat();
+            objeto1.div(a,b);
+            System.out.println(objeto1.div(a,b));
+        }
+        
+        else if(opcion==5){
+            System.out.println("ingrese el dato 1");
+            //String c= leer.nextLine();
+            float a= leer.nextFloat();
+            objeto1.s(a);
+            System.out.println(objeto1.s(a));
+        }else if(opcion==6){
+            System.out.println("ingrese el dato 1");
+            //String c= leer.nextLine();
+            float a= leer.nextFloat();
+            objeto1.c(a);
+            System.out.println(objeto1.c(a));
+        }
+        else if(opcion==7){
+            System.out.println("ingrese el dato 1");
+            //String c= leer.nextLine();
+            float a= leer.nextFloat();
+            objeto1.t(a);
+            System.out.println(objeto1.t(a));
+        }
