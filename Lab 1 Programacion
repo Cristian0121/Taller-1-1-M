@@ -11,7 +11,7 @@ public class Calculadora {
           
         while(opc){
             
-        System.out.println("Menú de operaciones\n");
+        System.out.println("\n***Menú de operaciones***\n");
         System.out.println("1.Suma");
         System.out.println("2.Resta");
         System.out.println("3.Multiplicacion");
@@ -22,20 +22,20 @@ public class Calculadora {
         System.out.println("8.Raiz.n");
         System.out.println("9.Potencia.n");
         System.out.println("10.Porcentaje");
-        System.out.println("11.Salir");
+        System.out.println("11.Salir\n");
         
         Scanner leer = new Scanner (System.in);
         opcion = leer.nextInt();
 
         if(opcion==1){ //SUMA
             
-            System.out.println("ingrese el dato 1");
+            System.out.println("Ingrese el dato 1");
             float a= leer.nextFloat();
-            System.out.println("ingrese el dato 2");
+            System.out.println("Ingrese el dato 2");
             float b= leer.nextFloat();
             
             resultado=a+b;
-            System.out.println(resultado);
+            System.out.println("\nEl resultado es: "+ resultado);
             
         }
         
@@ -47,7 +47,7 @@ public class Calculadora {
             float b= leer.nextFloat();
             
             resultado=a-b;
-            System.out.println(resultado);
+            System.out.println("\nEl resultado es: "+resultado);
             
         }
         
@@ -59,7 +59,7 @@ public class Calculadora {
             float b= leer.nextFloat();
             
             resultado=a*b;
-            System.out.println(resultado);
+            System.out.println("\nEl resultado es: "+resultado);
             
         }
         
@@ -72,7 +72,7 @@ public class Calculadora {
             float b= leer.nextFloat();
             
             resultado=a/b;
-            System.out.println(resultado);
+            System.out.println("\nEl resultado es: "+resultado);
             
         }
         
@@ -82,7 +82,7 @@ public class Calculadora {
             float a= leer.nextFloat();
             
             resultado= Math.sin(a);
-            System.out.println(resultado);
+            System.out.println("\nEl resultado es: "+resultado);
             
         }
         
@@ -92,7 +92,7 @@ public class Calculadora {
             double a= leer.nextFloat();
             
             resultado=Math.cos(a);
-            System.out.println(resultado);
+            System.out.println("\nEl resultado es: "+resultado);
             
         }
         
@@ -102,7 +102,7 @@ public class Calculadora {
             float a= leer.nextFloat();
             
             resultado=Math.tan(a);
-            System.out.println(resultado);
+            System.out.println("\nEl resultado es: "+resultado);
             
         }
         
@@ -114,7 +114,7 @@ public class Calculadora {
             float b= leer.nextFloat();
             
             resultado= Math.pow(a,1/b);
-            System.out.println(resultado);
+            System.out.println("\nEl resultado es: "+resultado);
             
         }
         
@@ -126,7 +126,7 @@ public class Calculadora {
             float b= leer.nextFloat();
             
             resultado=Math.pow(a,b);
-            System.out.println(resultado);
+            System.out.println("\nEl resultado es: "+resultado);
             
         }
         
@@ -138,7 +138,7 @@ public class Calculadora {
             float b= leer.nextFloat();
             
             resultado=a*(b/100);
-            System.out.println(resultado);
+            System.out.println("\nEl resultado es: "+resultado);
             
         }
         
