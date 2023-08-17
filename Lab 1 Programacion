@@ -1,12 +1,12 @@
 import java.util.Scanner;
-public class PooClaculadora {
+public class Calculadora {
 
   
     public static void main(String[] args) {
      
           int opcion;
-        Calculadora objeto1=new Calculadora();
-        boolean opc=true;
+          float resultado;
+          boolean opc=true;
         while(opc){
         System.out.println("Menú de operaciones");
         System.out.println("1. suma");
@@ -21,107 +21,108 @@ public class PooClaculadora {
         System.out.println("10.porcentaje");
         System.out.println("11.salir");
         Scanner leer = new Scanner (System.in);
-opcion = leer.nextInt();
+        
+         opcion = leer.nextInt();
 
         if(opcion==1){
             System.out.println("ingrese el dato 1");
             
-        
             float a= leer.nextFloat();
             System.out.println("ingrese el dato 2");
             float b= leer.nextFloat();
             
-            objeto1.sum(a,b);
-            System.out.println(objeto1.sum(a,b));
+           resultado=a+b;
+            System.out.println(resultado);
         }
         
         else if(opcion==2){
         System.out.println("ingrese el dato 1");
-        
+      
             float a= leer.nextFloat();
             
             System.out.println("ingrese el dato 2");
             float b= leer.nextFloat();
             
-            objeto1.res(a,b);
-            System.out.println(objeto1.res(a,b));
+            resultado=a+b;
+            System.out.println(resultado);
         }
-else if(opcion==3){
+        
+        else if(opcion==3){
             System.out.println("ingrese el dato 1");
-            //String c= leer.nextLine();
+          
             float a= leer.nextFloat();
             
             System.out.println("ingrese el dato 2");
             float b= leer.nextFloat();
             
-            objeto1.mul(a,b);
-            System.out.println(objeto1.mul(a,b));
+            resultado=a+b;
+            System.out.println(resultado);
         }
         
         
         else if(opcion==4){
             System.out.println("ingrese el dato 1");
-            //String c= leer.nextLine();
+           
             float a= leer.nextFloat();;
             
             System.out.println("ingrese el dato 2");
             float b= leer.nextFloat();
-            objeto1.div(a,b);
-            System.out.println(objeto1.div(a,b));
+           resultado=a+b;
+            System.out.println(resultado);
         }
         
         else if(opcion==5){
             System.out.println("ingrese el dato 1");
-            //String c= leer.nextLine();
+        
             float a= leer.nextFloat();
-            objeto1.s(a);
-            System.out.println(objeto1.s(a));
+           resultado=a+b;
+            System.out.println(resultado);
         }else if(opcion==6){
             System.out.println("ingrese el dato 1");
-            //String c= leer.nextLine();
+        
             float a= leer.nextFloat();
-            objeto1.c(a);
-            System.out.println(objeto1.c(a));
+            resultado=a+b;
+            System.out.println(resultado);
         }
         else if(opcion==7){
             System.out.println("ingrese el dato 1");
-            //String c= leer.nextLine();
+          
             float a= leer.nextFloat();
-            objeto1.t(a);
-            System.out.println(objeto1.t(a));
+           resultado=a+b;
+            System.out.println(resultado);
         }
-      else if(opcion==8){
+        else if(opcion==8){
             System.out.println("ingrese el dato Base");
-            //String c= leer.nextLine();
+         
             float a= leer.nextFloat();
             
             System.out.println("ingrese radical");
             float b= leer.nextFloat();
             
-            objeto1.r(a,b);
-            System.out.println(objeto1.r(a,b));
+            resultado=a+b;
+            System.out.println(resultado);
         }
        else if(opcion==9){
             System.out.println("ingrese el dato Base");
-            //String c= leer.nextLine();
+            
             float a= leer.nextFloat();
             
             System.out.println("ingrese exponente");
             float b= leer.nextFloat();
             
-            objeto1.p(a,b);
-            System.out.println(objeto1.p(a,b));
+            resultado=a+b;
+            System.out.println(resultado);
         }
    else if(opcion==10){
             System.out.println("ingrese el dato ");
-            //String c= leer.nextLine();
+            
             float a= leer.nextFloat();
             
             System.out.println("ingrese %");
             float b= leer.nextFloat();
             
-            objeto1.i(a,b);
-            System.out.println(objeto1.i(a,b));
+           resultado=a+b;
+            System.out.println(resultado);
         }
          else if(opcion==11){
             opc=false;
